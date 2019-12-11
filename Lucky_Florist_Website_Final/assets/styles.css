@@ -348,6 +348,10 @@ h3 {
 /*GENERAL MEDIA QUERY*/
 
 @media screen and (max-width: 1000px) {
+    
+    #viewport {
+        width: 95%;
+    }
 
     h2,
     h3 {
@@ -356,6 +360,7 @@ h3 {
 
     p {
         font-size: 120%;
+        padding: 10px;
     }
 
     li {
@@ -367,6 +372,10 @@ h3 {
     .address,
     .address2 {
         font-size: 110%;
+    }
+    
+    .reviews {
+        padding: 0px;
     }
 
     #gmap_canvas {
